@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projects | Archive</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            background-color: #f3eee7;
+            color: #2f2a27;
+            font-family: Georgia, serif;
+        }
+		p {
+			font-size: 20px;
+			line-height: 1.6;
+			margin-bottom: 30px;
+		}
+		
+        /* NAVIGATION */
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 50px;
+            border-bottom: 1px solid #2f2a27;
+        }
+
+        nav a {
+            color: #2f2a27;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            opacity: 0.6;
+        }
+
+        .logo {
+            font-size: 20px;
+            letter-spacing: 3px;
+        }
+
+
+        /* HEADER */
+
+        .header {
+            padding: 80px 50px 60px;
+        }
+
+        .header p {
+            font-size: 15px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .header h1 {
+            font-size: 80px;
+            font-weight: normal;
+            margin: 20px 0;
+        }
+
+        .header-text {
+            max-width: 600px;
+            font-size: 20px;
+            line-height: 1.7;
+        }
+
+
+        /* PROJECT GRID */
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1px;
+            background-color: #2f2a27;
+            border-top: 1px solid #2f2a27;
+            border-bottom: 1px solid #2f2a27;
+        }
+
+        .project {
+			background-color: #f3eee7;
+			padding: 30px;
+			min-height: 180px;
+			text-decoration: none;
+			color: #2f2a27;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			transition: 0.3s;
+		}
+
+        .project:hover {
+            background-color: #2f2a27;
+            color: #f3eee7;
+        }
+
+        .number {
+            font-size: 15px;
+            letter-spacing: 2px;
+        }
+
+        .project h2 {
+			font-size: 30px;
+			font-weight: normal;
+			margin: 18px 0 8px;
+		}
+
+        .project p {
+            font-size: 15px;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        .arrow {
+            font-size: 25px;
+            align-self: flex-end;
+        }
+
+
+        /* FOOTER */
+
+        footer {
+            padding: 30px 50px;
+            font-size: 14px;
+        }
+
+
+        /* MOBILE */
+
+        @media (max-width: 700px) {
+
+            nav {
+                padding: 20px;
+            }
+
+            nav a {
+                margin-left: 10px;
+                font-size: 13px;
+            }
+
+            .header {
+                padding: 60px 20px 40px;
+            }
+
+            .header h1 {
+                font-size: 55px;
+            }
+
+            .projects {
+                grid-template-columns: 1fr;
+            }
+
+            .project {
+                padding: 35px 25px;
+            }
+
+            .project h2 {
+                font-size: 32px;
+            }
+
+            footer {
+                padding: 25px 20px;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <div class="logo">
+            ARCHIVE
+        </div>
+
+        <div>
+            <a href="home.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="archive.html">Archive</a>
+            <a href="about.html">About</a>
+        </div>
+
+    </nav>
+
+
+
+    <!-- HEADER -->
+
+    <section class="header">
+
+        <p>The catalogue</p>
+
+        <h1>Projects.</h1>
+
+        <div class="header-text">
+
+            A collection of poems, fragments, stories and
+            ideas written across different moments.
+
+            <br><br>
+
+            Some were finished.
+            Some were changed.
+            Some simply stayed.
+
+        </div>
+
+    </section>
+
+
+
+    <!-- PROJECTS -->
+
+    <section class="projects">
+
+
+        <a href="project-the ruins.html" class="project">
+
+            <div>
+                <div class="number">01</div>
+
+                <h2>The Ruins</h2>
+
+                <p>March 2026</p>
+				
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-static heart.html" class="project">
+
+            <div>
+                <div class="number">02</div>
+
+                <h2>Static Heart</h2>
+
+                <p>March – June 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-archive of a breaking heart.html" class="project">
+
+            <div>
+                <div class="number">03</div>
+
+                <h2>Archive of a Breaking Heart</h2>
+
+                <p>March 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-hollow enough.html" class="project">
+
+            <div>
+                <div class="number">04</div>
+
+                <h2>Hollow Enough</h2>
+
+                <p>April 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-evidence i cant use.html" class="project">
+
+            <div>
+                <div class="number">05</div>
+
+                <h2>Evidence I Can't Use</h2>
+
+                <p>April 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-tenses.html" class="project">
+
+            <div>
+                <div class="number">06</div>
+
+                <h2>Tenses</h2>
+
+                <p>April – July 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-discarded pieces.html" class="project">
+
+            <div>
+                <div class="number">07</div>
+
+                <h2>Discarded Pieces</h2>
+
+                <p>May 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-the little you gave.html" class="project">
+
+            <div>
+                <div class="number">08</div>
+
+                <h2>The Little You Gave</h2>
+
+                <p>May 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-beyond the damage.html" class="project">
+
+            <div>
+                <div class="number">09</div>
+
+                <h2>Beyond the Damage</h2>
+
+                <p>May 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-flowers on may 31st.html" class="project">
+
+            <div>
+                <div class="number">10</div>
+
+                <h2>Flowers on May 31st</h2>
+
+                <p>May – July 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-oasis in sight.html" class="project">
+
+            <div>
+                <div class="number">11</div>
+
+                <h2>Oasis in Sight</h2>
+
+                <p>June 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-light from another day.html" class="project">
+
+            <div>
+                <div class="number">12</div>
+
+                <h2>Light from Another Day</h2>
+
+                <p>June 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-swan lake.html" class="project">
+
+            <div>
+                <div class="number">13</div>
+
+                <h2>Swan Lake</h2>
+
+                <p>June – July 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-it was never really over..html" class="project">
+
+            <div>
+                <div class="number">14</div>
+
+                <h2>It Was Never Really Over.</h2>
+
+                <p>June 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-.html" class="project">
+
+            <div>
+                <div class="number">15</div>
+
+                <h2>Era loading</h2>
+
+                <p>June – August 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-.html" class="project">
+
+            <div>
+                <div class="number">16</div>
+
+                <h2>Era loading</h2>
+
+                <p>July 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-html" class="project">
+
+            <div>
+                <div class="number">17</div>
+
+                <h2>Era loading</h2>
+
+                <p>July – August 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-.html" class="project">
+
+            <div>
+                <div class="number">18</div>
+
+                <h2>Era loading</h2>
+
+                <p>July – August 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-.html" class="project">
+
+            <div>
+                <div class="number">19</div>
+
+                <h2>Era loading</h2>
+
+                <p>August – September 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-.html" class="project">
+
+            <div>
+                <div class="number">20</div>
+
+                <h2>Era loading</h2>
+
+                <p>September 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-.html" class="project">
+
+            <div>
+                <div class="number">21</div>
+
+                <h2>Era loading</h2>
+
+                <p>December 2025 – September 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+        <a href="project-.html" class="project">
+
+            <div>
+                <div class="number">22</div>
+
+                <h2>Era loading</h2>
+
+                <p>September 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+		
+		
+		
+		<a href="project-.html" class="project">
+
+            <div>
+                <div class="number">23</div>
+
+                <h2>Era loading<h2>
+
+                <p>September 2026</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+		
+		
+		
+		<a href="project-.html" class="project">
+
+            <div>
+                <div class="number">24</div>
+
+                <h2>In production<h2>
+
+                <p>October 2026 - ???</p>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+    </section>
+
+
+
+    <footer>
+
+        © 2026 — Archive of Words
+
+    </footer>
+
+
+</body>
+
+</html>

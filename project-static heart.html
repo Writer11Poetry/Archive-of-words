@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Static Heart | Archive</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            background-color: #f3eee7;
+            color: #2f2a27;
+            font-family: Georgia, serif;
+        }
+
+        /* NAVIGATION */
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 50px;
+            border-bottom: 1px solid #2f2a27;
+        }
+
+        nav a {
+            color: #2f2a27;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            opacity: 0.6;
+        }
+
+        .logo {
+            font-size: 20px;
+            letter-spacing: 3px;
+        }
+
+
+        /* PROJECT HEADER */
+
+        .project-header {
+            min-height: 65vh;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .number {
+            font-size: 15px;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+        }
+
+        .project-header h1 {
+            font-size: 90px;
+            font-weight: normal;
+            margin: 0;
+            line-height: 0.95;
+        }
+
+        .date {
+            font-size: 17px;
+            margin-top: 30px;
+            letter-spacing: 1px;
+        }
+
+        .description {
+            max-width: 600px;
+            font-size: 20px;
+            line-height: 1.7;
+            margin-top: 40px;
+        }
+
+
+        /* TRACK SECTIONS */
+
+        .track-section {
+            border-top: 1px solid #2f2a27;
+        }
+
+        .track-heading {
+            padding: 35px 50px;
+            font-size: 15px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .track {
+            border-top: 1px solid #2f2a27;
+            padding: 25px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+            color: #2f2a27;
+            transition: 0.3s;
+        }
+
+        .track:hover {
+            background-color: #2f2a27;
+            color: #f3eee7;
+        }
+
+        .track-left {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+        }
+
+        .track-number {
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+
+        .track-name {
+            font-size: 25px;
+        }
+
+        .arrow {
+            font-size: 22px;
+        }
+
+
+        /* FOOTER */
+
+        footer {
+            padding: 30px 50px;
+            border-top: 1px solid #2f2a27;
+            font-size: 14px;
+        }
+
+
+        /* MOBILE */
+
+        @media (max-width: 700px) {
+
+            nav {
+                padding: 20px;
+            }
+
+            nav a {
+                margin-left: 10px;
+                font-size: 13px;
+            }
+
+            .project-header {
+                padding: 30px 20px;
+                min-height: 70vh;
+            }
+
+            .project-header h1 {
+                font-size: 60px;
+            }
+
+            .track-heading {
+                padding: 30px 20px;
+            }
+
+            .track {
+                padding: 20px;
+            }
+
+            .track-left {
+                gap: 20px;
+            }
+
+            .track-name {
+                font-size: 20px;
+            }
+
+            footer {
+                padding: 25px 20px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <div class="logo">
+            ARCHIVE
+        </div>
+
+        <div>
+            <a href="home.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="archive.html">Archive</a>
+            <a href="about.html">About</a>
+        </div>
+
+    </nav>
+
+
+
+    <!-- PROJECT INTRODUCTION -->
+
+    <section class="project-header">
+
+        <div class="number">
+            PROJECT 02
+        </div>
+
+        <h1>
+            Static Heart
+        </h1>
+
+        <div class="date">
+            20 March — 7 June 2026
+        </div>
+
+        <div class="description">
+
+            A collection about what remains when everything
+            around you keeps moving.
+
+        </div>
+
+    </section>
+
+
+<!-- TRACKLIST -->
+
+<section class="track-section">
+
+    <div class="track-heading">
+        Tracklist
+    </div>
+
+
+    <a href="shades of red.html" class="track">
+        <div class="track-left">
+            <div class="track-number">01</div>
+            <div class="track-name">Shades of Red</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="defences.html" class="track">
+        <div class="track-left">
+            <div class="track-number">02</div>
+            <div class="track-name">Defences</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="walk away.html" class="track">
+        <div class="track-left">
+            <div class="track-number">03</div>
+            <div class="track-name">Walk Away</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="afterwards.html" class="track">
+        <div class="track-left">
+            <div class="track-number">04</div>
+            <div class="track-name">Afterwards</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="diary.html" class="track">
+        <div class="track-left">
+            <div class="track-number">05</div>
+            <div class="track-name">Diary</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="silence - interlude.html" class="track">
+        <div class="track-left">
+            <div class="track-number">06</div>
+            <div class="track-name">Silence – Interlude</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="i should have known.html" class="track">
+        <div class="track-left">
+            <div class="track-number">07</div>
+            <div class="track-name">I Should Have Known</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="to think i could trust you.html" class="track">
+        <div class="track-left">
+            <div class="track-number">08</div>
+            <div class="track-name">To Think I Could Trust You</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="i needed you.html" class="track">
+        <div class="track-left">
+            <div class="track-number">09</div>
+            <div class="track-name">I Needed You</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="leave me alone.html" class="track">
+        <div class="track-left">
+            <div class="track-number">10</div>
+            <div class="track-name">Leave Me Alone</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="stormy - interlude.html" class="track">
+        <div class="track-left">
+            <div class="track-number">11</div>
+            <div class="track-name">Stormy – Interlude</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="the ocean.html" class="track">
+        <div class="track-left">
+            <div class="track-number">12</div>
+            <div class="track-name">The Ocean</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="the gardens part 2 - interlude.html" class="track">
+        <div class="track-left">
+            <div class="track-number">13</div>
+            <div class="track-name">The Gardens Part 2 – Interlude</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="the end.html" class="track">
+        <div class="track-left">
+            <div class="track-number">14</div>
+            <div class="track-name">The End</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="what you left behind.html" class="track">
+        <div class="track-left">
+            <div class="track-number">15</div>
+            <div class="track-name">What You Left Behind</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <!-- DELUXE DIVIDER -->
+
+    <div class="track-heading">
+        Deluxe
+    </div>
+
+
+    <a href="hurt the most.html" class="track">
+        <div class="track-left">
+            <div class="track-number">16</div>
+            <div class="track-name">Hurt the Most (Play It Off)</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="side smile.html" class="track">
+        <div class="track-left">
+            <div class="track-number">17</div>
+            <div class="track-name">Side Smile</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="strong - interlude.html" class="track">
+        <div class="track-left">
+            <div class="track-number">18</div>
+            <div class="track-name">Strong? – Interlude</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="frequency.html" class="track">
+        <div class="track-left">
+            <div class="track-number">19</div>
+            <div class="track-name">Frequency</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="fall to the floor.html" class="track">
+        <div class="track-left">
+            <div class="track-number">20</div>
+            <div class="track-name">Fall to the Floor</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="let me go - interlude.html" class="track">
+        <div class="track-left">
+            <div class="track-number">21</div>
+            <div class="track-name">Let Me Go – Interlude</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+
+    <a href="cold bonus.html" class="track">
+        <div class="track-left">
+            <div class="track-number">22</div>
+            <div class="track-name">Cold (Bonus)</div>
+        </div>
+        <div class="arrow">→</div>
+    </a>
+
+</section>

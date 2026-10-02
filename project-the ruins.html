@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Ruins | Archive</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            background-color: #f3eee7;
+            color: #2f2a27;
+            font-family: Georgia, serif;
+        }
+
+		p {
+			font-size: 20px;
+			line-height: 1.6;
+			margin-bottom: 30px;
+		}
+        /* NAVIGATION */
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px 50px;
+            border-bottom: 1px solid #2f2a27;
+        }
+
+        nav a {
+            color: #2f2a27;
+            text-decoration: none;
+            margin-left: 30px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            opacity: 0.6;
+        }
+
+        .logo {
+            font-size: 20px;
+            letter-spacing: 3px;
+        }
+
+
+        /* PROJECT HEADER */
+
+        .project-header {
+            min-height: 65vh;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .number {
+            font-size: 15px;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+        }
+
+        .project-header h1 {
+            font-size: 90px;
+            font-weight: normal;
+            margin: 0;
+            line-height: 0.95;
+        }
+
+        .date {
+            font-size: 17px;
+            margin-top: 30px;
+            letter-spacing: 1px;
+        }
+
+        .description {
+            max-width: 600px;
+            font-size: 20px;
+            line-height: 1.7;
+            margin-top: 40px;
+        }
+
+
+        /* TRACKLIST */
+
+        .track-section {
+            border-top: 1px solid #2f2a27;
+        }
+
+        .track-heading {
+            padding: 35px 50px;
+            font-size: 15px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .track {
+            border-top: 1px solid #2f2a27;
+            padding: 25px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-decoration: none;
+            color: #2f2a27;
+            transition: 0.3s;
+        }
+
+        .track:hover {
+            background-color: #2f2a27;
+            color: #f3eee7;
+        }
+
+        .track-left {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+        }
+
+        .track-number {
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+
+        .track-name {
+            font-size: 25px;
+        }
+
+        .arrow {
+            font-size: 22px;
+        }
+
+
+        /* FOOTER */
+
+        footer {
+            padding: 30px 50px;
+            border-top: 1px solid #2f2a27;
+            font-size: 14px;
+        }
+
+
+        /* MOBILE */
+
+        @media (max-width: 700px) {
+
+            nav {
+                padding: 20px;
+            }
+
+            nav a {
+                margin-left: 10px;
+                font-size: 13px;
+            }
+
+            .project-header {
+                padding: 30px 20px;
+                min-height: 70vh;
+            }
+
+            .project-header h1 {
+                font-size: 60px;
+            }
+
+            .track-heading {
+                padding: 30px 20px;
+            }
+
+            .track {
+                padding: 20px;
+            }
+
+            .track-left {
+                gap: 20px;
+            }
+
+            .track-name {
+                font-size: 20px;
+            }
+
+            footer {
+                padding: 25px 20px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- NAVIGATION -->
+
+    <nav>
+
+        <div class="logo">
+            ARCHIVE
+        </div>
+
+        <div>
+            <a href="home.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="archive.html">Archive</a>
+            <a href="about.html">About</a>
+        </div>
+
+    </nav>
+
+
+
+    <!-- PROJECT INTRODUCTION -->
+
+    <section class="project-header">
+
+        <div class="number">
+            PROJECT 01
+        </div>
+
+        <h1>
+            The Ruins
+        </h1>
+
+        <div class="date">
+            14 — 19 March 2026
+        </div>
+
+        <div class="description">
+
+            A collection of pieces written around what remains
+            after something has already fallen apart.
+
+        </div>
+
+    </section>
+
+
+
+    <!-- TRACKLIST -->
+
+    <section class="track-section">
+
+        <div class="track-heading">
+            Tracklist
+        </div>
+
+
+        <a href="to stay.html" class="track">
+
+            <div class="track-left">
+                <div class="track-number">01</div>
+                <div class="track-name">To Stay</div>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+        <a href="the person you wanted - interlude.html" class="track">
+
+            <div class="track-left">
+                <div class="track-number">02</div>
+                <div class="track-name">
+                    The Person You Wanted — Interlude
+                </div>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+        <a href="promises and lies.html" class="track">
+
+            <div class="track-left">
+                <div class="track-number">03</div>
+                <div class="track-name">Promises and Lies</div>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+        <a href="why.html" class="track">
+
+            <div class="track-left">
+                <div class="track-number">04</div>
+                <div class="track-name">Why?</div>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+        <a href="for a minute.html" class="track">
+
+            <div class="track-left">
+                <div class="track-number">05</div>
+                <div class="track-name">For a Minute</div>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+		<a href="bandages.html" class="track">
+
+			<div class="track-left">
+				<div class="track-number">06</div>
+				<div class="track-name">Bandages</div>
+			</div>
+
+			<div class="arrow">→</div>
+
+        </a>
+		
+		
+		
+		<a href="home poem.html" class="track">
+
+            <div class="track-left">
+                <div class="track-number">07</div>
+                <div class="track-name">Home</div>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+		
+		
+		
+		<a href="people - interlude.html" class="track">
+
+            <div class="track-left">
+                <div class="track-number">08</div>
+                <div class="track-name">People — Interlude</div>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+		
+		
+		
+        <a href="the gardens.html" class="track">
+
+            <div class="track-left">
+                <div class="track-number">09</div>
+                <div class="track-name">The Gardens</div>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+
+		<a href="villain of the story.html#" class="track">
+
+            <div class="track-left">
+                <div class="track-number">10</div>
+                <div class="track-name">Villain of the Story</div>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+		
+		
+		
+		 <a href="burning candles.html" class="track">
+
+            <div class="track-left">
+                <div class="track-number">11</div>
+                <div class="track-name">Burning Candles</div>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+		
+		
+		
+        <a href="lets keep pretending.html" class="track">
+
+            <div class="track-left">
+                <div class="track-number">12</div>
+                <div class="track-name">Let's Keep Pretending</div>
+            </div>
+
+            <div class="arrow">→</div>
+
+        </a>
+
+
+        
+    </section>
+
+
+
+    <footer>
+        © 2026 — Archive of Words
+    </footer>
+
+
+</body>
+
+</html>
